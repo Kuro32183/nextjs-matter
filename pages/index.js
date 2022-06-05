@@ -166,7 +166,7 @@ class Home extends React.Component {
           render: {
             sprite: {
               texture: textures[textureIndex],
-              xScale: SIZE, // between [0, 1]
+              xScale: SIZE,
               yScale: SIZE,
             },
           },
