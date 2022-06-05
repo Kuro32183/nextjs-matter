@@ -162,7 +162,7 @@ class Home extends React.Component {
         (SIZE * ORIGINAL_SIZE) / 2.15, // r
         {
           angle: Math.PI * (Math.random() * 2 - 1),
-          restitution: 0.5, //bouciness
+          restitution: 0.5,
           render: {
             sprite: {
               texture: textures[textureIndex],
