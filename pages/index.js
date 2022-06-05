@@ -153,7 +153,7 @@ class Home extends React.Component {
       } else if (fruitType === "four") {
         textureIndex = 3;
       }
-      // Fruit size randomiser
+      // size randomiser
       const ORIGINAL_SIZE = 100;
       const SIZE = Math.random() * 0.58 + 0.49 + 0.45; // a random number between 0.18 and 0.13
       const ball = Bodies.circle(
@@ -206,17 +206,14 @@ class Home extends React.Component {
       threeArray.push(fourFruit);
     });
 
-    var deviceOrientation = window.orientation; //デバイスの傾きを取得
+    var deviceOrientation = window.orientation;
 
-    //デバイスが動くたびに実行 : devicemotion
     window.addEventListener(
       "devicemotion",
       function devicemotionHandler(event) {
-        //重力加速度 (物体の重力を調節)
         var xg = event.accelerationIncludingGravity.x / 10;
         var yg = event.accelerationIncludingGravity.y / 10;
 
-        // 傾きに応じて重力を調節
         switch (deviceOrientation) {
           case 0:
             engine.world.gravity.x = xg + event.acceleration.x;
@@ -235,7 +232,6 @@ class Home extends React.Component {
             engine.world.gravity.y = yg - event.acceleration.x;
         }
 
-        // androidとiOSは加速度が真逆なのでその対応
         if (window.navigator.userAgent.indexOf("Android") > 0) {
           engine.world.gravity.x = -engine.world.gravity.x;
           engine.world.gravity.y = -engine.world.gravity.y;
