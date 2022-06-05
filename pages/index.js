@@ -249,10 +249,7 @@ class Home extends React.Component {
       <>
         <div className="h-screen w-screen overflow-hidden">
           <div ref="scene" className="relative filter brightness-90" />
-          <h1
-            className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[50%] left-[10%]"
-            style={{ zIndex: "1" }}
-          >
+          <h1 className="text pointer-events-none text-[4rem] md:text-[6rem] absolute bottom-[50%] left-[10%]">
             Please Click!!
           </h1>
         </div>
