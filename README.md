@@ -14,7 +14,7 @@ Hosting uses Vercel.
 
 ## Requirement
 
-![Requirement](img width="286" alt="code" src="https://user-images.githubusercontent.com/92940109/178321813-ca7fe618-1b3f-40ce-97d7-5fe2ce8c84ce.png)
+![Requirement](/code.png "code")
 
 ## Licence
 
