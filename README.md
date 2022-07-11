@@ -14,7 +14,7 @@ Hosting uses Vercel.
 
 ## Requirement
 
-![Requirement](/code.png "code")
+![Requirement](public/code.png "code")
 
 ## Licence
 
