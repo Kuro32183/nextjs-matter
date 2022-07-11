@@ -4,11 +4,12 @@
 An interactive website sample where textures fall on click events.
 
 ## Description
+Matter.js is a JavaScript 2D physics engine library that can be implemented on the Web.
+Developed physics, fall time adjustment, click event, Mouse Constraint, and responsive design from Next.js and Matter.js
+Hosting uses Vercel.
 
 ## Demo
-
 ![demo](https://media.giphy.com/media/Vdudq7CVjphnaeHdjj/giphy-downsized.gif)
-
 
 ## VS. 
 
