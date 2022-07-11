@@ -13,6 +13,18 @@ Hosting uses Vercel.
 
 ## Requirement
 
+"matter-js": "^0.18.0",
+        "matter-wrap": "^0.2.0",
+        "next": "12.1.6",
+        "react": "18.1.0",
+        "react-dom": "18.1.0"
+        "autoprefixer": "^10.4.7",
+        "eslint": "8.16.0",
+        "eslint-config-next": "12.1.6",
+        "gh-pages": "^4.0.0",
+        "postcss": "^8.4.14",
+        "tailwindcss": "^3.0.24"
+
 ## Licence
 
 [MIT](https://github.com/Kuro32183/tool/blob/master/LICENCE)
